@@ -73,17 +73,17 @@ The repository is structured to clearly distinguish between hardware implementat
 **Anirudh Mittal**  
 B.Tech Electrical Engineering  
 Indian Institute of Technology Gandhinagar  
-anirudh.mittal@iitgn.ac.in  
+[anirudh.mittal@iitgn.ac.in](mailto:anirudh.mittal@iitgn.ac.in) 
 
 **Arjun A. Mallya**  
 B.Tech Electrical Engineering  
 Indian Institute of Technology Gandhinagar  
-arjun.mallya@iitgn.ac.in
+[arjun.mallya@iitgn.ac.in](mailto:arjun.mallya@iitgn.ac.in)
 
 **Shah Tirth**  
 B.Tech Electrical Engineering  
 Indian Institute of Technology Gandhinagar
-tirth.shah@iitgn.ac.in
+[tirth.shah@iitgn.ac.in](mailto:tirth.shah@iitgn.ac.in)
 
 <br>
 
