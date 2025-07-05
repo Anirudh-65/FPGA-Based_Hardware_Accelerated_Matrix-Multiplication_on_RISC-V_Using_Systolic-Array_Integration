@@ -83,6 +83,7 @@ Indian Institute of Technology Gandhinagar
 **Shah Tirth**  
 B.Tech Electrical Engineering  
 Indian Institute of Technology Gandhinagar
+
 [tirth.shah@iitgn.ac.in](mailto:tirth.shah@iitgn.ac.in)
 
 <br>
