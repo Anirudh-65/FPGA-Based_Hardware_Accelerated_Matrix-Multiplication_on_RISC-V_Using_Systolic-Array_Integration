@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="riscv_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="riscv_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="419820000fs"></ZoomStartTime>
+      <ZoomEndTime time="435320001fs"></ZoomEndTime>
+      <Cursor1Time time="6000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="104"></NameColumnWidth>
+      <ValueColumnWidth column_width="66"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="42" />
+   <wvobject type="logic" fp_name="/riscv_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/out">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/pc_i">
+      <obj_property name="ElementShortName">pc_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/instruction_i">
+      <obj_property name="ElementShortName">instruction_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_i[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/instruction_valid_i">
+      <obj_property name="ElementShortName">instruction_valid_i</obj_property>
+      <obj_property name="ObjectShortName">instruction_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/cycle_count_o">
+      <obj_property name="ElementShortName">cycle_count_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cycle_count_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/counting_active_o">
+      <obj_property name="ElementShortName">counting_active_o</obj_property>
+      <obj_property name="ObjectShortName">counting_active_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/measurement_done_o">
+      <obj_property name="ElementShortName">measurement_done_o</obj_property>
+      <obj_property name="ObjectShortName">measurement_done_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/halt_detected_o">
+      <obj_property name="ElementShortName">halt_detected_o</obj_property>
+      <obj_property name="ObjectShortName">halt_detected_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/state">
+      <obj_property name="ElementShortName">state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/next_state">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/counter">
+      <obj_property name="ElementShortName">counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">counter[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/first_instruction_detected">
+      <obj_property name="ElementShortName">first_instruction_detected</obj_property>
+      <obj_property name="ObjectShortName">first_instruction_detected</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/halt_flag">
+      <obj_property name="ElementShortName">halt_flag</obj_property>
+      <obj_property name="ObjectShortName">halt_flag</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/halt_instruction">
+      <obj_property name="ElementShortName">halt_instruction</obj_property>
+      <obj_property name="ObjectShortName">halt_instruction</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/perf_counter/start_condition">
+      <obj_property name="ElementShortName">start_condition</obj_property>
+      <obj_property name="ObjectShortName">start_condition</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/IDLE">
+      <obj_property name="ElementShortName">IDLE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">IDLE[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/COUNTING">
+      <obj_property name="ElementShortName">COUNTING[1:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTING[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/DONE">
+      <obj_property name="ElementShortName">DONE[1:0]</obj_property>
+      <obj_property name="ObjectShortName">DONE[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/perf_counter/HALT_INSTRUCTION">
+      <obj_property name="ElementShortName">HALT_INSTRUCTION[31:0]</obj_property>
+      <obj_property name="ObjectShortName">HALT_INSTRUCTION[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/reset_i">
+      <obj_property name="ElementShortName">reset_i</obj_property>
+      <obj_property name="ObjectShortName">reset_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/accept">
+      <obj_property name="ElementShortName">accept</obj_property>
+      <obj_property name="ObjectShortName">accept</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/acknowledge">
+      <obj_property name="ElementShortName">acknowledge</obj_property>
+      <obj_property name="ObjectShortName">acknowledge</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/daddr_i">
+      <obj_property name="ElementShortName">daddr_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">daddr_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/dwdata_i">
+      <obj_property name="ElementShortName">dwdata_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dwdata_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/drdata_o">
+      <obj_property name="ElementShortName">drdata_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">drdata_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/drd_i">
+      <obj_property name="ElementShortName">drd_i</obj_property>
+      <obj_property name="ObjectShortName">drd_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/dbe_w">
+      <obj_property name="ElementShortName">dbe_w[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dbe_w[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/dump_addr">
+      <obj_property name="ElementShortName">dump_addr[11:0]</obj_property>
+      <obj_property name="ObjectShortName">dump_addr[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/dump_data">
+      <obj_property name="ElementShortName">dump_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dump_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/data_mem">
+      <obj_property name="ElementShortName">data_mem[0:1023][31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem[0:1023][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/word_address">
+      <obj_property name="ElementShortName">word_address[9:0]</obj_property>
+      <obj_property name="ObjectShortName">word_address[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/write_request">
+      <obj_property name="ElementShortName">write_request</obj_property>
+      <obj_property name="ObjectShortName">write_request</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/mem/request_pending_q">
+      <obj_property name="ElementShortName">request_pending_q</obj_property>
+      <obj_property name="ObjectShortName">request_pending_q</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/dump_word_addr">
+      <obj_property name="ElementShortName">dump_word_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">dump_word_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/dump_byte_select">
+      <obj_property name="ElementShortName">dump_byte_select[1:0]</obj_property>
+      <obj_property name="ObjectShortName">dump_byte_select[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/selected_byte">
+      <obj_property name="ElementShortName">selected_byte[7:0]</obj_property>
+      <obj_property name="ObjectShortName">selected_byte[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/mem/ADDR_BITS">
+      <obj_property name="ElementShortName">ADDR_BITS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_BITS[31:0]</obj_property>
+   </wvobject>
+</wave_config>

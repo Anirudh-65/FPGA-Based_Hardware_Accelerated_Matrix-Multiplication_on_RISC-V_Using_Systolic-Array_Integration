@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="riscv_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="riscv_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="122640000fs"></ZoomStartTime>
+      <ZoomEndTime time="133760001fs"></ZoomEndTime>
+      <Cursor1Time time="1000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="255"></NameColumnWidth>
+      <ValueColumnWidth column_width="134"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="148" />
+   <wvobject type="logic" fp_name="/riscv_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_d_data_rd_i">
+      <obj_property name="ElementShortName">mem_d_data_rd_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_d_data_rd_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_accept_i">
+      <obj_property name="ElementShortName">mem_d_accept_i</obj_property>
+      <obj_property name="ObjectShortName">mem_d_accept_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_ack_i">
+      <obj_property name="ElementShortName">mem_d_ack_i</obj_property>
+      <obj_property name="ObjectShortName">mem_d_ack_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_i_accept_i">
+      <obj_property name="ElementShortName">mem_i_accept_i</obj_property>
+      <obj_property name="ObjectShortName">mem_i_accept_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_i_inst_i">
+      <obj_property name="ElementShortName">mem_i_inst_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_i_inst_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_d_addr_o">
+      <obj_property name="ElementShortName">mem_d_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_d_addr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_d_data_wr_o">
+      <obj_property name="ElementShortName">mem_d_data_wr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_d_data_wr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_rd_o">
+      <obj_property name="ElementShortName">mem_d_rd_o</obj_property>
+      <obj_property name="ObjectShortName">mem_d_rd_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_d_wr_o">
+      <obj_property name="ElementShortName">mem_d_wr_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_d_wr_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_cacheable_o">
+      <obj_property name="ElementShortName">mem_d_cacheable_o</obj_property>
+      <obj_property name="ObjectShortName">mem_d_cacheable_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_d_req_tag_o">
+      <obj_property name="ElementShortName">mem_d_req_tag_o[10:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_d_req_tag_o[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_invalidate_o">
+      <obj_property name="ElementShortName">mem_d_invalidate_o</obj_property>
+      <obj_property name="ObjectShortName">mem_d_invalidate_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_writeback_o">
+      <obj_property name="ElementShortName">mem_d_writeback_o</obj_property>
+      <obj_property name="ObjectShortName">mem_d_writeback_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_d_flush_o">
+      <obj_property name="ElementShortName">mem_d_flush_o</obj_property>
+      <obj_property name="ObjectShortName">mem_d_flush_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_i_rd_o">
+      <obj_property name="ElementShortName">mem_i_rd_o</obj_property>
+      <obj_property name="ObjectShortName">mem_i_rd_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_i_flush_o">
+      <obj_property name="ElementShortName">mem_i_flush_o</obj_property>
+      <obj_property name="ObjectShortName">mem_i_flush_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/mem_i_invalidate_o">
+      <obj_property name="ElementShortName">mem_i_invalidate_o</obj_property>
+      <obj_property name="ObjectShortName">mem_i_invalidate_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/mem_i_pc_o">
+      <obj_property name="ElementShortName">mem_i_pc_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_i_pc_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/SUPPORT_MULDIV">
+      <obj_property name="ElementShortName">SUPPORT_MULDIV[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_MULDIV[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/SUPPORT_SUPER">
+      <obj_property name="ElementShortName">SUPPORT_SUPER[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_SUPER[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/SUPPORT_MMU">
+      <obj_property name="ElementShortName">SUPPORT_MMU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_MMU[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/SUPPORT_LOAD_BYPASS">
+      <obj_property name="ElementShortName">SUPPORT_LOAD_BYPASS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_LOAD_BYPASS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/SUPPORT_MUL_BYPASS">
+      <obj_property name="ElementShortName">SUPPORT_MUL_BYPASS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_MUL_BYPASS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/SUPPORT_REGFILE_XILINX">
+      <obj_property name="ElementShortName">SUPPORT_REGFILE_XILINX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_REGFILE_XILINX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/EXTRA_DECODE_STAGE">
+      <obj_property name="ElementShortName">EXTRA_DECODE_STAGE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXTRA_DECODE_STAGE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/MEM_CACHE_ADDR_MIN">
+      <obj_property name="ElementShortName">MEM_CACHE_ADDR_MIN[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_CACHE_ADDR_MIN[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/MEM_CACHE_ADDR_MAX">
+      <obj_property name="ElementShortName">MEM_CACHE_ADDR_MAX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_CACHE_ADDR_MAX[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/rst_i">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/start_i">
+      <obj_property name="ElementShortName">start_i</obj_property>
+      <obj_property name="ObjectShortName">start_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/addr_a_base_i">
+      <obj_property name="ElementShortName">addr_a_base_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_a_base_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/addr_b_base_i">
+      <obj_property name="ElementShortName">addr_b_base_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_b_base_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/addr_c_base_i">
+      <obj_property name="ElementShortName">addr_c_base_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_c_base_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/busy_o">
+      <obj_property name="ElementShortName">busy_o</obj_property>
+      <obj_property name="ObjectShortName">busy_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/mem_addr_o">
+      <obj_property name="ElementShortName">mem_addr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/mem_rd_o">
+      <obj_property name="ElementShortName">mem_rd_o</obj_property>
+      <obj_property name="ObjectShortName">mem_rd_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/mem_wr_o">
+      <obj_property name="ElementShortName">mem_wr_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_wr_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/mem_data_wr_o">
+      <obj_property name="ElementShortName">mem_data_wr_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_wr_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/mem_req_o">
+      <obj_property name="ElementShortName">mem_req_o</obj_property>
+      <obj_property name="ObjectShortName">mem_req_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/mem_data_rd_i">
+      <obj_property name="ElementShortName">mem_data_rd_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_data_rd_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/mem_gnt_i">
+      <obj_property name="ElementShortName">mem_gnt_i</obj_property>
+      <obj_property name="ObjectShortName">mem_gnt_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/mem_ack_i">
+      <obj_property name="ElementShortName">mem_ack_i</obj_property>
+      <obj_property name="ObjectShortName">mem_ack_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/state_q">
+      <obj_property name="ElementShortName">state_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state_q[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/state_next">
+      <obj_property name="ElementShortName">state_next[3:0]</obj_property>
+      <obj_property name="ObjectShortName">state_next[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/matrix_A">
+      <obj_property name="ElementShortName">matrix_A[0:2][0:2][63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_A[0:2][0:2][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/matrix_B">
+      <obj_property name="ElementShortName">matrix_B[0:2][0:2][63:0]</obj_property>
+      <obj_property name="ObjectShortName">matrix_B[0:2][0:2][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/result_matrix">
+      <obj_property name="ElementShortName">result_matrix[0:2][0:2][127:0]</obj_property>
+      <obj_property name="ObjectShortName">result_matrix[0:2][0:2][127:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/read_a_count_q">
+      <obj_property name="ElementShortName">read_a_count_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">read_a_count_q[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/read_b_count_q">
+      <obj_property name="ElementShortName">read_b_count_q[5:0]</obj_property>
+      <obj_property name="ObjectShortName">read_b_count_q[5:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/write_c_count_q">
+      <obj_property name="ElementShortName">write_c_count_q[6:0]</obj_property>
+      <obj_property name="ObjectShortName">write_c_count_q[6:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/base_addr_a_q">
+      <obj_property name="ElementShortName">base_addr_a_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">base_addr_a_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/base_addr_b_q">
+      <obj_property name="ElementShortName">base_addr_b_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">base_addr_b_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/base_addr_c_q">
+      <obj_property name="ElementShortName">base_addr_c_q[31:0]</obj_property>
+      <obj_property name="ObjectShortName">base_addr_c_q[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/systolic_initiate_q">
+      <obj_property name="ElementShortName">systolic_initiate_q</obj_property>
+      <obj_property name="ObjectShortName">systolic_initiate_q</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_matmul_controller/systolic_done_w">
+      <obj_property name="ElementShortName">systolic_done_w</obj_property>
+      <obj_property name="ObjectShortName">systolic_done_w</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/ROW_A">
+      <obj_property name="ElementShortName">ROW_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROW_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/COL_A">
+      <obj_property name="ElementShortName">COL_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COL_A[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/ROW_B">
+      <obj_property name="ElementShortName">ROW_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ROW_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/COL_B">
+      <obj_property name="ElementShortName">COL_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">COL_B[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/BUS_WIDTH">
+      <obj_property name="ElementShortName">BUS_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">BUS_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/ELEMENT_WIDTH">
+      <obj_property name="ElementShortName">ELEMENT_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ELEMENT_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/S_IDLE">
+      <obj_property name="ElementShortName">S_IDLE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_IDLE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/S_FETCH_A">
+      <obj_property name="ElementShortName">S_FETCH_A[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_FETCH_A[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/S_FETCH_B">
+      <obj_property name="ElementShortName">S_FETCH_B[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_FETCH_B[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/S_COMPUTE">
+      <obj_property name="ElementShortName">S_COMPUTE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_COMPUTE[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/S_WRITE_C">
+      <obj_property name="ElementShortName">S_WRITE_C[3:0]</obj_property>
+      <obj_property name="ObjectShortName">S_WRITE_C[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/A_WORDS">
+      <obj_property name="ElementShortName">A_WORDS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">A_WORDS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/B_WORDS">
+      <obj_property name="ElementShortName">B_WORDS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">B_WORDS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_matmul_controller/C_WORDS">
+      <obj_property name="ElementShortName">C_WORDS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">C_WORDS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_issue/u_regfile/clk_i">
+      <obj_property name="ElementShortName">clk_i</obj_property>
+      <obj_property name="ObjectShortName">clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/riscv_tb/uut/u_issue/u_regfile/rst_i">
+      <obj_property name="ElementShortName">rst_i</obj_property>
+      <obj_property name="ObjectShortName">rst_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/rd0_i">
+      <obj_property name="ElementShortName">rd0_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rd0_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/rd0_value_i">
+      <obj_property name="ElementShortName">rd0_value_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd0_value_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/ra0_i">
+      <obj_property name="ElementShortName">ra0_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ra0_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/rc0_i">
+      <obj_property name="ElementShortName">rc0_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rc0_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/rb0_i">
+      <obj_property name="ElementShortName">rb0_i[4:0]</obj_property>
+      <obj_property name="ObjectShortName">rb0_i[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/ra0_value_o">
+      <obj_property name="ElementShortName">ra0_value_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ra0_value_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/rb0_value_o">
+      <obj_property name="ElementShortName">rb0_value_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rb0_value_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/rc0_value_o">
+      <obj_property name="ElementShortName">rc0_value_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rc0_value_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r1_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r1_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r1_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r2_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r2_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r2_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r3_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r3_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r3_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r4_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r4_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r4_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r5_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r5_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r5_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r6_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r6_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r6_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r7_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r7_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r7_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r8_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r8_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r8_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r9_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r9_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r9_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r10_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r10_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r10_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r11_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r11_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r11_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r12_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r12_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r12_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r13_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r13_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r13_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r14_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r14_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r14_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r15_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r15_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r15_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r16_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r16_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r16_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r17_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r17_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r17_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r18_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r18_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r18_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r19_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r19_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r19_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r20_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r20_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r20_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r21_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r21_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r21_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r22_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r22_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r22_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r23_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r23_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r23_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r24_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r24_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r24_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r25_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r25_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r25_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r26_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r26_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r26_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r27_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r27_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r27_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r28_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r28_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r28_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r29_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r29_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r29_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r30_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r30_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r30_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.reg_r31_q ">
+      <obj_property name="ElementShortName">\REGFILE.reg_r31_q [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.reg_r31_q [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x0_zero_w ">
+      <obj_property name="ElementShortName">\REGFILE.x0_zero_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x0_zero_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x1_ra_w ">
+      <obj_property name="ElementShortName">\REGFILE.x1_ra_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x1_ra_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x2_sp_w ">
+      <obj_property name="ElementShortName">\REGFILE.x2_sp_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x2_sp_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x3_gp_w ">
+      <obj_property name="ElementShortName">\REGFILE.x3_gp_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x3_gp_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x4_tp_w ">
+      <obj_property name="ElementShortName">\REGFILE.x4_tp_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x4_tp_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x5_t0_w ">
+      <obj_property name="ElementShortName">\REGFILE.x5_t0_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x5_t0_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x6_t1_w ">
+      <obj_property name="ElementShortName">\REGFILE.x6_t1_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x6_t1_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x7_t2_w ">
+      <obj_property name="ElementShortName">\REGFILE.x7_t2_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x7_t2_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x8_s0_w ">
+      <obj_property name="ElementShortName">\REGFILE.x8_s0_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x8_s0_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x9_s1_w ">
+      <obj_property name="ElementShortName">\REGFILE.x9_s1_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x9_s1_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x10_a0_w ">
+      <obj_property name="ElementShortName">\REGFILE.x10_a0_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x10_a0_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x11_a1_w ">
+      <obj_property name="ElementShortName">\REGFILE.x11_a1_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x11_a1_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x12_a2_w ">
+      <obj_property name="ElementShortName">\REGFILE.x12_a2_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x12_a2_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x13_a3_w ">
+      <obj_property name="ElementShortName">\REGFILE.x13_a3_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x13_a3_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x14_a4_w ">
+      <obj_property name="ElementShortName">\REGFILE.x14_a4_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x14_a4_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x15_a5_w ">
+      <obj_property name="ElementShortName">\REGFILE.x15_a5_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x15_a5_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x16_a6_w ">
+      <obj_property name="ElementShortName">\REGFILE.x16_a6_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x16_a6_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x17_a7_w ">
+      <obj_property name="ElementShortName">\REGFILE.x17_a7_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x17_a7_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x18_s2_w ">
+      <obj_property name="ElementShortName">\REGFILE.x18_s2_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x18_s2_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x19_s3_w ">
+      <obj_property name="ElementShortName">\REGFILE.x19_s3_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x19_s3_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x20_s4_w ">
+      <obj_property name="ElementShortName">\REGFILE.x20_s4_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x20_s4_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x21_s5_w ">
+      <obj_property name="ElementShortName">\REGFILE.x21_s5_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x21_s5_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x22_s6_w ">
+      <obj_property name="ElementShortName">\REGFILE.x22_s6_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x22_s6_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x23_s7_w ">
+      <obj_property name="ElementShortName">\REGFILE.x23_s7_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x23_s7_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x24_s8_w ">
+      <obj_property name="ElementShortName">\REGFILE.x24_s8_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x24_s8_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x25_s9_w ">
+      <obj_property name="ElementShortName">\REGFILE.x25_s9_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x25_s9_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x26_s10_w ">
+      <obj_property name="ElementShortName">\REGFILE.x26_s10_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x26_s10_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x27_s11_w ">
+      <obj_property name="ElementShortName">\REGFILE.x27_s11_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x27_s11_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x28_t3_w ">
+      <obj_property name="ElementShortName">\REGFILE.x28_t3_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x28_t3_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x29_t4_w ">
+      <obj_property name="ElementShortName">\REGFILE.x29_t4_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x29_t4_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x30_t5_w ">
+      <obj_property name="ElementShortName">\REGFILE.x30_t5_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x30_t5_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.x31_t6_w ">
+      <obj_property name="ElementShortName">\REGFILE.x31_t6_w [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.x31_t6_w [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.ra0_value_r ">
+      <obj_property name="ElementShortName">\REGFILE.ra0_value_r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.ra0_value_r [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.rb0_value_r ">
+      <obj_property name="ElementShortName">\REGFILE.rb0_value_r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.rb0_value_r [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/\REGFILE.rc0_value_r ">
+      <obj_property name="ElementShortName">\REGFILE.rc0_value_r [31:0]</obj_property>
+      <obj_property name="ObjectShortName">\REGFILE.rc0_value_r [31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/riscv_tb/uut/u_issue/u_regfile/SUPPORT_REGFILE_XILINX">
+      <obj_property name="ElementShortName">SUPPORT_REGFILE_XILINX[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SUPPORT_REGFILE_XILINX[31:0]</obj_property>
+   </wvobject>
+</wave_config>
