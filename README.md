@@ -56,6 +56,7 @@ Power consumption also improved, with a slight increase from 0.25 W (loop) to 0.
 
 ## Repository Structure
 
+The repository is structured to clearly distinguish between hardware implementations, simulations, and supporting documents. The `riscv_matmul` folder contains Verilog source files for the modified RV32IM core with an integrated systolic array accelerator and custom `matmul` instruction. In contrast, the `riscv_without_matmul` folder provides the baseline RISC-V design implementing traditional loop-based matrix multiplication. The `Readme` file offers a comprehensive overview of the project, while `SRIP_Research_Report` and `SRIP_Research_Poster` contain the detailed research report and academic poster respectively. Additionally, `Project_Documentation_RISCV_matmul` consolidates presentation materials and explanatory documents used during the project evaluation. This organization ensures clarity and ease of navigation for contributors, researchers, and reviewers.
 
 <br>
 
